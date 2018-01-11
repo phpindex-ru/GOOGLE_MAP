@@ -96,4 +96,4 @@ var n = 0, m = 0, l = 0, a = "X";
 return a = t && 0 > e ? "S" : !t && 0 > e ? "W" : t ? "N" : "E", d = Math.abs(e), n = Math.floor(d), l = 3600 * (d - n), m = Math.floor(l / 60), l = Math.round(1e4 * (l - 60 * m)) / 1e4, n + "&deg; " + m + "' " + l + "'' " + a
 }
 </script>                                                                           
-<script src="https://maps.googleapis.com/maps/api/js?callback=initialize&amp;key=AIzaSyBnpR6gXxxDRnsHbOeTE_d6o2e4vQkAy7s " async defer></script>          
+<script src="https://maps.googleapis.com/maps/api/js?callback=initialize&amp;key=KEY_HERE " async defer></script>          
